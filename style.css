@@ -1,0 +1,79 @@
+.movie__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: auto;
+}
+
+.movie__actor {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  text-align: center;
+  color: black;
+  background-color: default;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+.movie__actor:hover{
+  background-color: black;
+  color: white;
+}
+.movie__awards {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  text-align: center;
+  color: black;
+  background-color: default;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+.movie__awards:hover{
+  background-color: black;
+  color: white;
+}
+
+.movie__country {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  text-align: center;
+  color: black;
+  background-color: default;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+.movie__country:hover{
+  background-color: black;
+  color: white;
+}
+
+.movie__english {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  text-align: center;
+  color: black;
+  background-color: default;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+.movie__english:hover{
+  background-color: black;
+  color: white;
+}
+
+.movie__image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
